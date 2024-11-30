@@ -71,7 +71,7 @@ main {
     object-fit: contain;
 }
 
-.nomeProdotto, .descrizione, .prezzo, .linkAmazon {
+.prodotti > div {
     padding-left: 2rem;
 }
 
