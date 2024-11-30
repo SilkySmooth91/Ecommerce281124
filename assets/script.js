@@ -42,3 +42,23 @@ function hideImg() {
     }
 }
 
+function cambiaColore(color) {
+    let colorePrezzo
+    switch(color) {
+        case "red":
+            colorePrezzo = "red"
+            break
+        case "blue":
+            colorePrezzo = "blue"
+            break
+        case "green":
+            colorePrezzo = "green"
+            break
+        default:
+            colorePrezzo = "" 
+    }
+    let switchColor = document.querySelectorAll(".prezzo")
+    for (i = 0; i < switchColor.length; i++) {
+        switchColor[i].style.color = colorePrezzo
+    }
+}
